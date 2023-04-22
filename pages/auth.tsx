@@ -26,7 +26,7 @@ export async function getServerSideProps(context: NextPageContext) {
 }
 
 const Auth = () => {
-  // const router = useRouter();
+  const router = useRouter();
 
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
